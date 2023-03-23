@@ -1,3 +1,10 @@
 body{
     color: hotpink;
+    background-color: honeydew;
+    margin-top: 50px;
+}
+
+div.title{
+    font-size: 50px;
+    font-family: 'Verdana', Geneva, Tahoma, sans-serif;
 }
