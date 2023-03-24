@@ -10,5 +10,26 @@ body {
 
 h1{
     font-family: "arc";
-    font-size: 100px;
+    font-size: 70px;
+    margin-top: -5px;
+    margin-bottom: -5px;
+    text-align: center;
+}
+
+div.subtitle{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 30px;
+    background-color:aquamarine;
+    margin-bottom: 25px;
+
+}
+
+div.divider{
+    font-size: 50px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+div.p1{
+    font-size: 25px;
 }
