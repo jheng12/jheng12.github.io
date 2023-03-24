@@ -1,0 +1,14 @@
+body {
+    background-color:greenyellow;
+    font-family: helvetica;
+}
+
+@font-face {
+    font-family: "arc";
+    src: url("ARCDEMO-Regular.woff");
+}
+
+h1{
+    font-family: "arc";
+    font-size: 100px;
+}

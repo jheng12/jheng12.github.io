@@ -2,15 +2,18 @@ body{
     color: hotpink;
     background-color: honeydew;
     margin-top: 50px;
+    
 }
 
 div.title{
     font-size: 50px;
     font-family: 'Verdana', Geneva, Tahoma, sans-serif;
+    text-align: center;
 }
 
 div.subtitle{
-    font-size: 25px;
+    font-size: 40px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: coral;
+    margin-bottom: 25px;
 }
