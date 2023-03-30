@@ -53,15 +53,24 @@
             <a-box
             width="7"
             height="7"
-            depth="0.4"
+            depth="0.2"
             position="0 0.2 0" 
-            rotation="65 10 0"               
+            rotation="0 45 0"               
             src="camera.png"
             transparent="true"
             alphaTest= "0.5"            
             env-map="#env"
             metalness="1.0"
             roughness="0.5"          
+            
+            animation="
+            property: rotation; 
+            from: 0 0 0; 
+            to: 0 0 45; 
+            easing: linear; 
+            dur: 4000; 
+            loop:true"   
+
             >
             </a-box>
     
