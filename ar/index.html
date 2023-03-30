@@ -41,34 +41,34 @@
       https://jeromeetienne.github.io/AR.js/three.js/examples/marker-training/examples/generator.html
      -->
 
-     <!-- !!! MARKER 1 !!! -->
+     <!-- !!! Only 1 Marker but lots of assets inside it !!! -->
 
       <a-marker type='pattern' url='pattern-marker4562.patt' smooth="true">
 
         <!-- This is the object <a-object> 
           Edit size, position, texture and animation here -->
 
-        <a-plane
-        radius="0.8"
-        position= "0 0.5 0"
-        src="camera.png"
-        env-map="#env"
-        metalness="0.9"
-        roughness="0.1"                  
-        animation="
-         property: rotation; 
-         from: 0 0 0; 
-         to: 0 360 0; 
-         easing: linear; 
-         dur: 10000; 
-         loop:true"
-          >                  
-        </a-plane>
+          <a-marker type='pattern' url='pattern-marker4562.patt' smooth="true">
 
-        <!-- !!! END MARKER 1 !!! -->
-      </a-marker>
-      
-      
+            <a-box
+            width="7"
+            height="7"
+            depth="0.4"
+            position="0 0.2 0" 
+            rotation="0 0 0"               
+            src="camera.png"
+            transparent="true"
+            alphaTest= "0.5"            
+            env-map="#env"
+            metalness="1.0"
+            roughness="0.5"          
+            >
+            </a-box>
+    
+          </a-marker>          
+
+        <!-- !!! Do not remove Marker 1 !!! -->
+      </a-marker>    
 
      
 
