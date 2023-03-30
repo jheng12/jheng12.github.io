@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+  <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
+  <script src="aframe-ar.js"></script>
+  <body>
+    <a-scene embedded arjs environment="#env" vr-mode-ui="enabled: false">
+      <a-assets>
+        <a-cubemap id="env">
+          <img src="Daylight-Box_Right.jpg">
+          <img src="Daylight-Box_Left.jpg">
+          <img src="Daylight-Box_Top.jpg">
+          <img src="Daylight-Box_Bottom.jpg">
+          <img src="Daylight-Box_Front.jpg">
+          <img src="Daylight-Box_Back.jpg">
+        </a-cubemap>
+      </a-assets>
+
+      <a-light type="ambient" color="#888"></a-light>
+      <a-light type="point" intensity="0.3" position="2 4 4"></a-light>
+
+      <!-- DONT EDIT ABOVE
+                o   o
+                 )-(
+                (O O)
+                 \=/
+                .-"-.
+               //\ /\\
+             _// / \ \\_
+            =./ {,-.} \.=
+                || ||
+                || ||    
+              __|| ||__  
+             `---" "---'   
+           EDIT FROM HERE ON          
+      -->
+
+      <!-- This is the marker, inside the <marker> 
+           the objects that will appear at that position -->
+
+      <!-- You can create your own markers here. ONLY USE JPEGS not PNG!
+      https://jeromeetienne.github.io/AR.js/three.js/examples/marker-training/examples/generator.html
+     -->
+
+     <!-- !!! Only 1 Marker but lots of assets inside it !!! -->
+
+      <a-marker type='pattern' url='pattern-marker4562.patt' smooth="true">
+
+        <!-- This is the object <a-object> 
+          Edit size, position, texture and animation here -->
+
+          <a-marker type='pattern' url='pattern-marker4562.patt' smooth="true">
+
+            <a-box
+            width="7"
+            height="5.5"
+            depth="0.4"
+            position="0 0.2 0" 
+            rotation="65 10 0"               
+            src="numbers.png"
+            transparent="true"
+            alphaTest= "0.5"            
+            env-map="#env"
+            metalness="1.0"
+            roughness="0.0"          
+            >
+            </a-box>
+    
+          </a-marker>          
+
+        <!-- !!! Do not remove Marker 1 !!! -->
+      </a-marker>    
+
+     
+
+
+      <a-entity camera></a-entity>
+    </a-scene>
+
+  </body>
+</html>

@@ -33,3 +33,9 @@ div.divider{
 div.p1{
     font-size: 25px;
 }
+
+div.p2{
+    font-size: 20px;
+    font-family: "arc";
+    font-weight: bold;
+}

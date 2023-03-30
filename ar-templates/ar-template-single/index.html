@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+  <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
+  <script src="aframe-ar.js"></script>
+  <body>
+    <a-scene embedded arjs environment="#env" vr-mode-ui="enabled: false">
+      <a-assets>
+        <a-cubemap id="env">
+          <img src="Daylight-Box_Right.jpg">
+          <img src="Daylight-Box_Left.jpg">
+          <img src="Daylight-Box_Top.jpg">
+          <img src="Daylight-Box_Bottom.jpg">
+          <img src="Daylight-Box_Front.jpg">
+          <img src="Daylight-Box_Back.jpg">
+        </a-cubemap>
+      </a-assets>
+
+      <a-light type="ambient" color="#888"></a-light>
+      <a-light type="point" intensity="0.3" position="2 4 4"></a-light>
+
+      <!-- DONT EDIT ABOVE
+                o   o
+                 )-(
+                (O O)
+                 \=/
+                .-"-.
+               //\ /\\
+             _// / \ \\_
+            =./ {,-.} \.=
+                || ||
+                || ||    
+              __|| ||__  
+             `---" "---'   
+           EDIT FROM HERE ON          
+      -->
+
+      <!-- This is the marker, inside the <marker> 
+           the objects that will appear at that position -->
+
+      <!-- You can create your own markers here. ONLY USE JPEGS not PNG!
+      https://jeromeetienne.github.io/AR.js/three.js/examples/marker-training/examples/generator.html
+     -->
+
+     <!-- !!! MARKER 1 !!! -->
+
+      <a-marker type='pattern' url='pattern-marker4562.patt' smooth="true">
+
+        <!-- This is the object <a-object> 
+          Edit size, position, texture and animation here -->
+
+        <a-sphere
+        radius="0.8"
+        position= "0 0.5 0"
+        src="sky.jpeg"
+        env-map="#env"
+        metalness="0.9"
+        roughness="0.1"                  
+        animation="
+         property: rotation; 
+         from: 0 0 0; 
+         to: 0 360 0; 
+         easing: linear; 
+         dur: 10000; 
+         loop:true"
+          >                  
+        </a-sphere>
+
+        <!-- !!! END MARKER 1 !!! -->
+      </a-marker>
+      
+      
+
+     
+
+
+      <a-entity camera></a-entity>
+    </a-scene>
+
+  </body>
+</html>
