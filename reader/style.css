@@ -1,5 +1,5 @@
 body {
-    background-color:greenyellow;
+    background-color: aliceblue;
     font-family: helvetica;
 }
 
@@ -8,12 +8,38 @@ body {
     src: url("ARCDEMO-Regular.woff");
 }
 
-h1{
-    font-family: "arc";
-    font-size: 70px;
-    margin-top: -5px;
+@font-face {
+    font-family: "bd-geminis", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    src: url(https://use.typekit.net/drw6mvk.css);
+}
+
+div.header{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 10px;
+    padding: 5px 20px 10px;
+    background: red;
+    color: #f1f1f1;
+    position: fixed;
+    top: 0;
+    margin-left: -10px;
+    height: 50px;
+    width: 100%
+}
+
+div.heading{
+    background-color: black;
+    padding: 20px;
+    font-family: "bd-geminis", sans-serif;
+    font-size: 80px;
+    color: aliceblue;
+    margin-top: 60px;
     margin-bottom: -5px;
-    text-align: center;
+    margin-left: -10px;
+    text-align: justify;
+    letter-spacing: 10px;
+    width: 100%;
 }
 
 div.subtitle{
