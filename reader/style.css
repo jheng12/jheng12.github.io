@@ -1,7 +1,12 @@
 body {
-    background-color: aliceblue;
+    background-color:aliceblue
     font-family: helvetica;
 }
+
+html, body {
+    margin: 0px;
+    padding: 0;
+  }  
 
 @font-face {
     font-family: "arc";
@@ -18,50 +23,97 @@ body {
 div.header{
     font-family: 'Courier New', Courier, monospace;
     font-size: 10px;
-    padding: 5px 20px 10px;
-    background: red;
+    padding: 5px 0px 5px;
+    background: rgb(255, 33, 92);
     color: #f1f1f1;
     position: fixed;
     top: 0;
-    margin-left: -10px;
     height: 50px;
-    width: 100%
+    width: 100%;
+    text-align: center;
+
 }
 
 div.heading{
     background-color: black;
-    padding: 20px;
+    padding: 80px 25px 20px ;
+    width: 100%;
     font-family: "bd-geminis", sans-serif;
     font-size: 80px;
     color: aliceblue;
-    margin-top: 60px;
-    margin-bottom: -5px;
-    margin-left: -10px;
     text-align: justify;
-    letter-spacing: 10px;
-    width: 100%;
+    letter-spacing: 20px;
+    
 }
 
-div.subtitle{
-    font-family:'Times New Roman', Times, serif;
+div.author{
+    font-family: 'Courier New', Courier, monospace;
     font-size: 30px;
-    background-color:aquamarine;
-    margin-bottom: 25px;
+    font-weight: bold;
+    margin-top: 20px;
+    text-align: right;
+}
 
+div.min{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    text-align: right;
 }
 
 div.divider{
-    font-size: 50px;
+    font-size: 25px;
     text-align: center;
-    margin-top: 10px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    margin-left: 30px;
 }
+
+hr{
+    width: 425px;
+    border: 2px solid black;
+    margin-left: 10px;
+}
+
+div.subtitle{
+    font-family: Helvetica, sans-serif;
+    font-size: 40px;
+    font-style: italic;
+    font-weight: bold;
+    margin-bottom: 25px;
+    text-align: center;
+    margin-left: 10px;
+}
+
 
 div.p1{
     font-size: 25px;
+    font-family: Helvetica, sans-serif;
+    margin-left: 25px;
+    margin-bottom: 20px;
 }
 
-div.p2{
-    font-size: 20px;
-    font-family: "arc";
-    font-weight: bold;
+div.p2 {
+    font-size: 25px;
+    font-family: Helvetica, sans-serif;
+    margin-left: 25px;
+    margin-bottom: 20px;
+}
+
+div.p3 {
+    font-size: 25px;
+    font-family: Helvetica, sans-serif;
+    margin-left: 25px;
+    margin-bottom: 20px;
+}
+
+div.p4 {
+    font-size: 25px;
+    color: aliceblue;
+    font-family: Helvetica, sans-serif;
+    margin-bottom: 20px;
+    background-color: black;
+    padding: 25px 25px 25px; 
+    width: 100%;
 }
