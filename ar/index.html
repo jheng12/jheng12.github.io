@@ -175,21 +175,32 @@
        <!-- MARKER 7 -->
             <a-marker type='pattern' url='pattern-marker7.patt' smooth="true">
 
-              <a-box
-              width="3"
-              height="3"
-              depth="0.1"
-              position="0 0.2 0" 
-              rotation="90 0 0"               
-              src="camera.png"
-              transparent="true"
-              alphaTest= "0.5"            
+              <a-sphere
+              radius="0.8"
+              position= "-4 0.5 -3"
+              src="eyeball.jpg"
               env-map="#env"
-              metalness="1.0"
-              roughness="0.5"            
+              metalness="0.9"
+              roughness="0.1"  
+
+              animation="
+              property: rotation; 
+              from: 0 0 0; 
+              to: 0 360 0; 
+              easing: linear; 
+              dur: 10000; 
+              loop:true"
+              animation__2="
+              property: position; 
+              from: 1 0.5 -3; 
+              to: 1 2 -3; 
+              dir: alternate;
+              easing: linear; 
+              dur: 5000; 
+              loop:true"            
   
               >
-              </a-box>
+              </a-sphere>
       
             </a-marker> 
 
