@@ -1,0 +1,167 @@
+body {
+    background-color: #ff2b2b;
+    margin: 0px;
+    font-size: 36px;
+}
+
+@font-face {
+    font-family: "bd-geminis", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    src: url(https://use.typekit.net/drw6mvk.css);
+}
+
+img {
+    width: 100%;
+}
+
+div.container {
+    display: flex;
+    flex-wrap: wrap;
+    outline: 4px solid black;
+    background-color:#ff2b2b;
+    height: 800px;
+}
+
+div.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+div.col {
+
+}
+
+div.width100{
+    width: 100%;
+}
+
+div.width80{
+    width: 80%;
+}
+
+div.width75{
+    width: 75%;
+}
+
+div.width66{
+    width: 66.6%;
+}
+
+div.width60{
+    width: 60%;
+}
+
+div.width50{
+    width: 50%;
+}
+
+div.width40{
+    width: 40%;
+}
+
+div.width33 {
+    width: 33.333%;
+}
+
+div.width25 {
+    width: 25%;
+}
+
+div.width20 {
+    width: 20%;
+}
+
+div.width16{
+    width: 16.66%;
+}
+
+div.image{
+    height: 50px;
+}
+
+div.bgblue {
+    background-color: aqua;
+}
+
+div.coloranimation {
+    background-color: pink;
+    animation: bgcolor 2s infinite alternate ;
+}
+
+@keyframes bgcolor {
+    0% {
+        background-color: rgb(226, 43, 43);
+    }
+
+    50% {
+        background-color: rgb(255, 170, 0);
+    }
+
+    100% {
+        background-color: rgb(255, 213, 0);
+    }
+}
+
+div.left {
+    height: 100%;
+    background-color: #000000;
+    overflow: scroll;
+}
+
+.text {
+    font-size: 80px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bolder;
+    margin-top: 0;
+    margin-left: 10px;
+    color: aliceblue;
+    text-transform: uppercase;
+}
+
+div.right {
+    height: 100%;
+    background-color: white;
+    overflow: scroll;
+}
+
+
+
+.text2 {
+    padding: 10px;
+    font-weight: bold;
+}
+
+div.menu {
+    position: fixed;
+    font-family: "bd-geminis", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 60px;
+    color: aliceblue;
+    bottom: -10px;
+    background-color: #ff2b2b;
+    width: 100%;
+    padding-top: 20px;
+ }
+
+hr.line{
+    border: 2px solid black;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.img{
+    position: absolute;
+}
+
+.img-hover{
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+}
+
+.img:hover .img-hover{
+    display: inline;
+}
