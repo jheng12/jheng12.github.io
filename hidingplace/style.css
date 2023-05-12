@@ -11,10 +11,6 @@ body {
     src: url(https://use.typekit.net/drw6mvk.css);
 }
 
-img {
-    width: 100%;
-}
-
 div.container {
     display: flex;
     flex-wrap: wrap;
@@ -115,6 +111,7 @@ div.left {
     font-weight: bolder;
     margin-top: 0;
     margin-left: 10px;
+    margin-bottom: 5px;
     color: aliceblue;
     text-transform: uppercase;
 }
@@ -124,8 +121,6 @@ div.right {
     background-color: white;
     overflow: scroll;
 }
-
-
 
 .text2 {
     padding: 10px;
@@ -143,16 +138,24 @@ div.menu {
     background-color: #ff2b2b;
     width: 100%;
     padding-top: 20px;
- }
+}
 
-hr.line{
-    border: 2px solid black;
+.ispy {
+    color: aliceblue;
+    margin: 0;
+    margin-left: 10px;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+.line{
+    border: 2px solid aliceblue;
     margin-left: 10px;
     margin-right: 10px;
 }
 
 .img{
-    position: absolute;
+    position:relative
 }
 
 .img-hover{
@@ -165,3 +168,12 @@ hr.line{
 .img:hover .img-hover{
     display: inline;
 }
+
+video.webcam {
+    width:100%;
+    height: 25%;
+    object-fit:cover;
+    margin:10px;
+    transform: scaleX(-1);
+  }
+
