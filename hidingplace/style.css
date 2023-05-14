@@ -175,5 +175,6 @@ video.webcam {
     object-fit:cover;
     margin:10px;
     transform: scaleX(-1);
+    filter:grayscale(100);
   }
 
