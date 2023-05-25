@@ -1,0 +1,170 @@
+body {
+    background-color:rgb(231, 230, 230);
+    margin: 0px;
+    font-size: 36px;
+}
+
+div.container {
+    display: flex;
+    flex-wrap: wrap;
+    height: 800px;
+}
+
+div.col{
+    border: 1px solid black;
+}
+
+div.row {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+div.width100{
+    width: 100%;
+}
+
+div.width80{
+    width: 80%;
+}
+
+div.width75{
+    width: 75%;
+}
+
+div.width66{
+    width: 66.6%;
+}
+
+div.width60{
+    width: 60%;
+}
+
+div.width50{
+    width: 50%;
+}
+
+div.width40{
+    width: 40%;
+}
+
+div.width33 {
+    width: 33.333%;
+}
+
+div.width30 {
+    width: 30%;
+}
+
+div.width26 {
+    width: 26%;
+}
+
+div.width25 {
+    width: 25%;
+}
+
+div.width20 {
+    width: 20%;
+}
+
+div.width16{
+    width: 16.66%;
+}
+
+div.width14{
+    width: 14%;
+}
+
+div.width10{
+    width: 10%;
+}
+
+.header{
+    position: fixed;
+    background-color: white;
+    width: 100%;
+    padding: 10px;
+    font-size: 20px;
+    word-spacing: 25px;
+    padding-left: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header2{
+    background-color:rgb(231, 230, 230);
+    color: rgb(231, 230, 230);
+    width: 100%;
+    padding-top: 150px;
+}
+
+.menu{
+    padding-left: 25px;
+}
+
+span.black{
+    color: black;
+}
+
+span.black:hover{
+    color: #7ac144;
+    text-decoration: underline;
+}
+
+span.login{
+    background-color: #7ac144;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+span.border{
+    border: 0.50px solid gray;
+    color: gray;
+    padding: 9px;
+    padding-right: 180px;
+}
+
+.centre{
+    text-align: center;
+}
+
+.searchbar{
+    background-color: white;
+    color: gray;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 0px;
+    padding-bottom: 15px;
+}
+
+.searchbar2{
+    background-color: white;
+    border: 0.5px solid gray;
+    border-radius: 8px 0px 0px 8px;
+    color: gray;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+}
+
+span.search{
+    background-color: #7ac144;
+    padding: 15px;
+    border: 0.5px solid #7ac144;
+    border-radius: 0px 8px 8px 0px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+div.logo{
+    padding-bottom: 20px;
+}
+
+.movie{
+    margin-top: 50px;
+}
