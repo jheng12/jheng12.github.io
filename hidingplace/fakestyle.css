@@ -11,7 +11,7 @@ div.container {
 }
 
 div.col{
-    border: 1px solid black;
+    
 }
 
 div.row {
@@ -95,11 +95,11 @@ div.width10{
     background-color:rgb(231, 230, 230);
     color: rgb(231, 230, 230);
     width: 100%;
-    padding-top: 150px;
+    padding-top: 90px;
 }
 
 .menu{
-    padding-left: 25px;
+    padding-left: 50px;
 }
 
 span.black{
@@ -108,6 +108,14 @@ span.black{
 
 span.black:hover{
     color: #7ac144;
+    text-decoration: underline;
+}
+
+span.button{
+    color: white;
+}
+
+span.button:hover{
     text-decoration: underline;
 }
 
@@ -166,5 +174,44 @@ div.logo{
 }
 
 .movie{
-    margin-top: 50px;
+    margin-top: 40px;
 }
+
+.footer{
+    background-color:#7ac144;
+    height: 125px;
+    margin-top: 30px;
+}
+
+.fake{
+    font-size: 14px;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:#7ac144;
+    color: white;
+}
+
+video.webcam {
+    object-fit:cover;
+    transform: scaleX(-1);
+    filter:grayscale(0);
+    width: 90%;
+    height: 90%;
+    filter: sepia(100%);
+    filter: saturate(2);
+    background-color:gray;
+  }
+
+  .link{
+    margin-bottom: 40px;
+    text-align: center;
+  }
+
+  span.red{
+    color: red;
+    text-decoration: underline;
+  }
+
+  span.green{
+    color: #7ac144;
+  }

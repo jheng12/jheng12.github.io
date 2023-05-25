@@ -7,6 +7,20 @@
     <title>123Movies</title>
     <link rel="stylesheet" href="https://use.typekit.net/ibf2grq.css">
     <link rel="stylesheet" href="fakestyle.css">
+    <script>
+        window.onload = function () {
+        var constraints = { audio: true, video: true };
+    
+        navigator.mediaDevices
+          .getUserMedia(constraints)
+          .then(function (mediaStream) {
+            var video = document.querySelector("video");
+            video.srcObject = mediaStream;
+            video.play();
+          })
+          .catch(function (err) {});
+      }; 
+    </script>
 </head>
 
 <body>
@@ -22,7 +36,7 @@
             <span class="black">COUNTRY</span>     
             <span class="black">TV-SERIES</span>  
             <span class="black">TOP-IMDb</span>
-            <span class="black">A-Z LIST</span>    
+            <span class="black">A-Z</span>    
         </div>
         <div class="col width20 searchbar">
             <br>
@@ -31,7 +45,7 @@
 
         <div class="col login width10">
             <br>
-            <span class="login ">LOGIN</span>
+            <span class="login button">LOGIN</span>
         </div>
 
     </div>
@@ -40,6 +54,15 @@
         <div class="col">
             hello
         </div>
+    </div>
+
+    <div class="row">
+        <div class="col width16"></div>
+        <div class="col width66 link">
+            <a href="welcome.html">
+                <span class="red">click here</span></a> to be redirected to the new 123Movies website
+        </div>
+        <div class="col width10"></div>
     </div>
 
     <div class="row">
@@ -56,7 +79,7 @@
             Enter Movie Series or name
         </div>
         <div class="col width10">
-            <span class="search">SEARCH</span>
+            <span class="search button">SEARCH</span>
         </div>
         <div class="col width25"></div>
     </div>
@@ -92,58 +115,65 @@
     <div class="row">
         <div class="col width10"></div>
         <div class="col width10">
-            <img src="shawshank.jpg" height= 90% width= 90% alt="">
+            <img src="vendetta.jpg" height= 90% width= 90% alt="">
         </div>
         <div class="col width10">
-            <img src="godfather.jpg" height= 90% width= 90% alt="">
+            <img src="walle.jpg" height= 90% width= 90% alt="">
         </div>
         <div class="col width10">
-            <img src="lotr.jpg" height= 90% width= 90% alt="">
+            <img src="truman.jpg" height= 90% width= 90% alt="">
         </div>
         <div class="col width10">
-            <img src="inception.jpg" height= 90% width= 90% alt="">
+            <img src="toystory.jpg" height= 90% width= 90% alt="">
         </div>
         <div class="col width10">
-            <img src="leon.jpg" height= 90% width= 90% alt="">
+            <img src="spiderverse.jpg" height= 90% width= 90% alt="">
         </div>
         <div class="col width10">
-            <img src="spiritedaway.jpg" height= 90% width= 90% alt="">
+            <video class="webcam" height= 100% width= 100%></video>
         </div>
         <div class="col width10">
-            <img src="untouchables.jpg" height= 90% width= 90% alt="">
+            <img src="nowayhome.jpg" height= 90% width= 90% alt="">
         </div>
         <div class="col width10">
-            <img src="interstellar.jpg" height= 90% width= 90% alt="">
+            <img src="memento.jpg" height= 90% width= 90% alt="">
         </div>
     </div>
    
     <div class="row">
         <div class="col width10"></div>
         <div class="col width10">
-            <img src="shawshank.jpg" height= 90% width= 90% alt="">
+            <img src="jurassic.jpg" height= 90% width= 90% alt="">
         </div>
         <div class="col width10">
-            <img src="godfather.jpg" height= 90% width= 90% alt="">
+            <img src="joker.jpg" height= 90% width= 90% alt="">
         </div>
         <div class="col width10">
-            <img src="lotr.jpg" height= 90% width= 90% alt="">
+            <img src="infinitywar.jpg" height= 90% width= 90% alt="">
         </div>
         <div class="col width10">
-            <img src="inception.jpg" height= 90% width= 90% alt="">
+            <img src="guardians.jpg" height= 90% width= 90% alt="">
         </div>
         <div class="col width10">
-            <img src="leon.jpg" height= 90% width= 90% alt="">
+            <img src="coco.jpg" height= 90% width= 90% alt="">
         </div>
         <div class="col width10">
-            <img src="spiritedaway.jpg" height= 90% width= 90% alt="">
+            <img src="catchme.jpg" height= 90% width= 90% alt="">
         </div>
         <div class="col width10">
-            <img src="untouchables.jpg" height= 90% width= 90% alt="">
+            <img src="darkknight.jpg" height= 90% width= 90% alt="">
         </div>
         <div class="col width10">
-            <img src="interstellar.jpg" height= 90% width= 90% alt="">
+            <img src="alien.jpg" height= 90% width= 90% alt="">
         </div>
     </div>
+
+<div class="row">
+    <div class="col width100 footer"></div>
+    <div class="col fake width100">
+        [This is a fake website and we are watching you right now]
+    </div>
+</div>
 
 
 </body>
