@@ -215,3 +215,7 @@ video.webcam {
   span.green{
     color: #7ac144;
   }
+
+  .posters:hover{
+    opacity: 80%;
+  }
