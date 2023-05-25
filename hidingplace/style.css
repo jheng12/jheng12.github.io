@@ -92,26 +92,21 @@ div.image{
     height: 50px;
 }
 
-div.bgblue {
-    background-color: aqua;
-}
-
 div.coloranimation {
-    background-color: pink;
-    animation: bgcolor 2s infinite alternate ;
+    animation: bgcolor 5s infinite alternate ;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 @keyframes bgcolor {
     0% {
-        background-color: rgb(226, 43, 43);
+        background-color: black;
     }
-
     50% {
-        background-color: rgb(255, 170, 0);
+        background-color: white;
     }
-
     100% {
-        background-color: rgb(255, 213, 0);
+        background-color: black;
     }
 }
 
@@ -142,7 +137,6 @@ div.left {
     margin-right: 10px;
     margin-bottom: 5px;
     color: black;
-    background-color: white;
     text-transform: uppercase;
     line-height: 90%;
     text-align: center;
@@ -226,9 +220,9 @@ video.webcam {
     margin:0px;
     transform: scaleX(-1);
     filter:grayscale(100);
-  }
+}
 
-  div.menu {
+div.menu {
     position: fixed;
     font-family: "bd-geminis", sans-serif;
     font-weight: 400;
