@@ -4,6 +4,13 @@ body {
     font-size: 36px;
 }
 
+@font-face {
+    font-family: "bd-geminis", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    src: url(https://use.typekit.net/ibf2grq.css);
+}
+
 div.container {
     display: flex;
     flex-wrap: wrap;
@@ -56,6 +63,10 @@ div.width30 {
     width: 30%;
 }
 
+div.width27 {
+    width: 27%;
+}
+
 div.width26 {
     width: 26%;
 }
@@ -76,12 +87,17 @@ div.width14{
     width: 14%;
 }
 
+div.width12{
+    width: 12%;
+}
+
 div.width10{
     width: 10%;
 }
 
 .header{
     position: fixed;
+    z-index: 999;
     background-color: white;
     width: 100%;
     padding: 10px;
@@ -104,15 +120,19 @@ div.width10{
 
 span.black{
     color: black;
+    cursor: pointer;
 }
 
 span.black:hover{
     color: #7ac144;
     text-decoration: underline;
+    font-family: "bd-geminis", sans-serif;
+    letter-spacing: 2.5px;
 }
 
 span.button{
     color: white;
+    cursor: pointer;
 }
 
 span.button:hover{
@@ -125,6 +145,7 @@ span.login{
     border-radius: 5px;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
 }
 
 span.border{
@@ -171,24 +192,40 @@ span.search{
 
 div.logo{
     padding-bottom: 20px;
+    cursor: pointer;
 }
 
 .movie{
     margin-top: 40px;
 }
 
-.footer{
+.fake{
     background-color:#7ac144;
-    height: 125px;
+    display:relative;
+    z-index: 999;
+}
+
+.margintop{
     margin-top: 30px;
 }
 
-.fake{
-    font-size: 14px;
-    padding: 20px;
-    font-family: Arial, Helvetica, sans-serif;
-    background-color:#7ac144;
+.marginbottom{
+    margin-bottom: 30px;
+}
+
+.fake:hover{
+    background-color:black;
+    display: absolute;
     color: white;
+    font-size: 24px;
+    font-family: "bd-geminis", sans-serif;
+}
+
+.marquee{
+    font-size: 24px;
+    font-family: "bd-geminis", sans-serif;
+    background-color:#7ac144;
+    color:#7ac144;
 }
 
 video.webcam {
@@ -200,22 +237,151 @@ video.webcam {
     filter: sepia(100%);
     filter: saturate(2);
     background-color:gray;
-  }
+}
 
-  .link{
+.link{
     margin-bottom: 40px;
     text-align: center;
-  }
+}
 
-  span.red{
+span.red{
     color: red;
     text-decoration: underline;
-  }
+}
 
-  span.green{
+span.green{
     color: #7ac144;
-  }
+}
 
-  .posters:hover{
+.posters:hover{
     opacity: 80%;
-  }
+}
+
+span.fontanimation {
+    animation: clickhere 6s infinite alternate;
+}
+
+@keyframes clickhere {
+    0% {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 30px;
+    }
+    25% {
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 30px;
+    }
+    50% {
+        font-family: "bd-geminis", sans-serif;
+        font-size: 30px;
+    }
+    75% {
+        font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-size: 30px;
+    }
+    100% {
+        font-family: 'Times New Roman', serif;
+        font-size: 30px;
+    }
+} 
+
+.searching:after {
+    content:"";
+    animation: searching 10s linear infinite;
+}
+  
+@keyframes searching {
+    0% { content:"Searching...";}
+    100% { content:"Watching....";}
+}
+
+.watched:before {
+    content:"";
+    animation: watched 10s linear infinite;
+}
+  
+@keyframes watched {
+    0% { content:"whatched";}
+    50% { content:"monitord";}
+    75% { content:"observed";}
+    100% { content:"survielled";}
+}
+
+.left{
+    text-align: left;
+}
+
+.right{
+    text-align: right;
+}
+
+.img{
+    position:relative;
+    display: ;
+}
+
+.img-hover{
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+}
+
+.img:hover .img-hover{
+    display: inline;
+    opacity: 30%;
+}
+
+.small{
+    height: 50%;
+    width: 50%;
+}
+
+.pointer{
+    cursor: pointer;
+}
+
+.fixedimage{
+    position: fixed;
+    opacity: 4%;
+}
+
+.one{
+    top: 100px;
+    right: 100px;
+}
+
+.two{
+    top: 150px;
+    left: 200px;
+}
+
+.three{
+    bottom: 100px;
+    right: 10px;
+}
+
+.four{
+    top: 250px;
+    left: 700px;
+}
+
+.five{
+    top: 40px;
+    left: 900px;
+}
+
+.six{
+    bottom: 250px;
+    left: 10px;
+}
+
+.seven{
+    bottom: 100px;
+    left: 400px;
+}
+
+.eight{
+    bottom: 200px;
+    right: 400px;
+}
+
