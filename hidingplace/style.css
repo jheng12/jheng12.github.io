@@ -184,14 +184,6 @@ div.footer {
     padding-top: 20px;
 }
 
-.ispy {
-    color: aliceblue;
-    margin: 0;
-    margin-left: 10px;
-    font-size: 30px;
-    text-transform: uppercase;
-}
-
 .line{
     border: 2px solid aliceblue;
     margin-left: 10px;
@@ -221,125 +213,6 @@ video.webcam {
     filter:grayscale(100);
 }
 
-div.menu {
-    position: fixed;
-    font-family: "bd-geminis", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 60px;
-    color: white;
-    bottom: -10px;
-    background-color: #2c2c2c;
-    width: 100%;
-    padding-top: 20px;
-}
-
-div.menu2 {
-    position: fixed;
-    font-family: "bd-geminis", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 60px;
-    color: black;
-    bottom: 90px;
-    background-color: white;
-    width: 100%;
-    padding-top: 20px;
-}
-
-div.menu3 {
-    position: fixed;
-    font-family: "bd-geminis", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 60px;
-    color: white;
-    bottom: 190px;
-    background-color: black;
-    width: 100%;
-    padding-top: 20px;
-}
-
-div.menu4 {
-    position: fixed;
-    font-family: "bd-geminis", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 60px;
-    color: white;
-    top: 0px;
-    background-color: black;
-    width: 100%;
-    padding-top: 20px;
-}
-
-div.menu5 {
-    position: fixed;
-    font-family: "bd-geminis", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 60px;
-    color: black;
-    top: 90px;
-    background-color: white;
-    width: 100%;
-    padding-top: 20px;
-}
-
-div.menu6 {
-    position: fixed;
-    font-family: "bd-geminis", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 60px;
-    color: white;
-    top: 190px;
-    background-color: black;
-    width: 100%;
-    padding-top: 20px;
-}
-
-div.menu7 {
-    position: fixed;
-    font-family: "bd-geminis", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 60px;
-    color: black;
-    top: 290px;
-    background-color: white;
-    width: 100%;
-    padding-top: 20px;
-}
-
-div.link a {
-    position: fixed;
-    font-family:"verdana";
-    font-weight: 400;
-    font-style: normal;
-    font-size: 30px;
-    color: white;
-    top: 370px;
-    background-color: #2c2c2c;
-    width: 100%;
-    padding-top: 15px;
-    padding-bottom: 25px;
-    text-align: center;
-}
-
-div.menu9 {
-    position: fixed;
-    font-family: "bd-geminis", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 60px;
-    color: black;
-    bottom: 290px;
-    background-color: white;
-    width: 100%;
-    padding-top: 15px;
-}
-
 span.red{
     color: #ff2b2b;
 }
@@ -361,4 +234,33 @@ span.highlight{
 
 span.highlight:hover{
     color: white;
+}
+
+.marquee{
+    background-color:black;
+    color: white;
+    font-size: 60px;
+    font-family: "bd-geminis", sans-serif;
+    position:;
+}
+
+.whitebg{
+    background-color: white;
+    color: black;
+}
+
+.link{
+    font-family: "futura-pt", sans-serif;
+    font-size: 30px;
+    color: red;
+    width: 100%;
+    text-align: center;
+    background-color: white;
+    text-align: center;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.margin{
+    margin-top: 10px;
 }
