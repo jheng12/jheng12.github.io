@@ -127,6 +127,7 @@ div.left {
     text-transform: uppercase;
     line-height: 90%;
     text-align: justify;
+    cursor: default;
 }
 
 .text {
@@ -140,6 +141,7 @@ div.left {
     text-transform: uppercase;
     line-height: 90%;
     text-align: center;
+    cursor: default;
 }
 
 .text2{
@@ -153,6 +155,7 @@ div.left {
     text-transform: uppercase;
     line-height: 80%;
     text-align: left;
+    cursor: default;
 }
 
 div.right {
@@ -169,6 +172,7 @@ div.right {
     font-family: futura-pt, sans-serif;
     font-weight: 500;
     font-weight: 100;
+    cursor: default;
 }
 
 div.footer {
@@ -188,6 +192,7 @@ div.footer {
     border: 2px solid aliceblue;
     margin-left: 10px;
     margin-right: 10px;
+    cursor: pointer;
 }
 
 .img{
@@ -242,6 +247,7 @@ span.highlight:hover{
     font-size: 60px;
     font-family: "bd-geminis", sans-serif;
     position:;
+    cursor: default;
 }
 
 .whitebg{
